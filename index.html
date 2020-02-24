@@ -10,13 +10,16 @@
       h1 { font-size: 2em; }
       h5 { font-size: 1em; padding-left: 1.15em; text-indent:-1.15em; }
       p { font-size: .83em; margin: 0; color: #333; }
+      section .signature { text-align: right; }
+      section .authors { text-align: center; }
       ol { list-style: none; padding: 0; margin-bottom: 2em; }
-      li { margin: 1em 0;}
-      li p { padding-left: 1em; }
+      ol li { margin: 1em 0;}
+      ol li p { padding-left: 1em; }
+      .copyright { text-align: center; margin: 2em 0em; }
+      
       footer { width: 100%; margin: 4em 0em; }
       footer a, footer a:visited, footer a:hover { color: #666; }
       footer .references { display: flex; flex-direction: horizontal; justify-content: space-between; align-items: stretch; }
-      footer .copyright { text-align: center; margin: 2em 0em; }
       footer ul { list-style: none; padding: 0; margin: 0; }
       footer ul li { margin: .5em; }
       @media screen and (min-width: 768px) {
@@ -80,7 +83,9 @@
           <p>Nobody will consistently deliver on any task for which everyone is responsible. When they do they'll build animosity for those who don't. It is your team, take responsibility for clear responsibilities and communication.</p>
         </li>
       </ol>
-      <p style="text-align: right;">-- The Long-Form Manifesto Authors</p>
+      <p class="signature">-- The Long-Form Manifesto Authors</p>
+      <ul class="authors"><li>Jeff Nickoloff</li><li>Portia Dean</li></ul>
+      <div class="copyright">Copyright © 2020 the above authors<br/> this declaration may be freely copied in any form, but only in its entirety through this notice.</div>
     </section>
     <footer>
       <div class="references">
@@ -94,7 +99,6 @@
           </ul>
         </div>
       </div>
-      <div class="copyright">Copyright © 2020 The Long-Form Manifesto Authors and Topple, Inc. All rights reserved.</div>
     </footer>
   </body>
 </html>
